@@ -1,0 +1,15 @@
+{
+  "name": "synthui",
+  "version": "0.0.1",
+  "description": "A server hosting a UI for controlling a synthesizer over Socket",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Anders Clark",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^3.1.0"
+  }
+}
